@@ -1,0 +1,33 @@
+body {
+	background:url('https://unsplash.it/1600/1200?image=972');
+	background-size:cover;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	text-align: center;
+}
+#chart {
+	height: 600px;
+	margin: 5% auto 0 auto;
+	width: 1000px;
+}
+#chart > svg {
+	border-radius:10px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+div.tooltip {
+	position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  z-index:100;
+}
